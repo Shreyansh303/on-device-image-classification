@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# Data & artifacts
+data/
+checkpoints/
+results/*.png
+results/*.json
+exports/
+*.onnx
+*.tflite
+*.pt
+*.pth
+
+# Logs & temp
+*.log
+_tmp_size.pt
+
+# Envs
+.venv/
+venv/

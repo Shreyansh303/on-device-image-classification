@@ -1,0 +1,18 @@
+# Core PyTorch pipeline
+torch>=2.4
+torchvision>=0.19
+numpy
+pyyaml
+matplotlib
+tqdm
+
+# Export / on-device (PyTorch -> TFLite/ONNX)
+onnx
+onnxruntime
+# ai-edge-torch  # Google's PyTorch->TFLite converter. Install separately if your
+                 # torch version is supported: pip install ai-edge-torch
+
+# Phase 2: TensorFlow -> TFLite native variant
+tensorflow>=2.15
+# tensorflow-metal           # optional GPU accel on Apple Silicon
+tensorflow-model-optimization  # TF-MOT: pruning + quantization-aware training
